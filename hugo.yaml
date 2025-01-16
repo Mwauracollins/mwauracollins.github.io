@@ -1,0 +1,112 @@
+baseURL: https://mwauracollins.github.io/
+languageCode: en-us
+title: mwaura.AI
+theme: "PaperMod"
+ignoreLogs: ['warning-goldmark-raw-html']
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - $$
+            - $$
+          inline:
+          - - $
+            - $
+        enable: true
+
+params:
+  env: production
+  title: mwaura.AI
+  description: "Whispering to tensors, making AI dance"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Mwaura Collins
+
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  search:
+    enable: true
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+  math: true
+
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: "Hi there \U0001F44B"
+    subtitle: "Welcome to my blog and engage in what makes my neurons tick!"
+    imageUrl: "/images/profile/hero-bg.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: profile-image
+    
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog and engage in what makes my neurons tick!
+  socialIcons:
+    - name: website
+      url: https://mwaura.tech/
+    - name: github
+      url: https://github.com/Mwauracollins
+    - name: linkedin
+      url: https://www.linkedin.com/in/collins-mwaura/
+    - name: x
+      url: https://x.com/Hopelesss_Opus
+
+menu:
+  main:
+    - identifier: categories
+      name: Posts
+      url: /posts/
+      weight: 10
+
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+
+    - identifier: site
+      name: mwaura.tech
+      url: https://mwaura.tech/
+      weight: 30
+
+

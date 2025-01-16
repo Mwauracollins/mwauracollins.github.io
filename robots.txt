@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://mwauracollins.github.io/sitemap.xml

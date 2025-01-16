@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Generative-Models on mwaura.AI</title>
+    <link>https://mwauracollins.github.io/tags/generative-models/</link>
+    <description>Recent content in Generative-Models on mwaura.AI</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Jan 2025 21:23:02 +0300</lastBuildDate>
+    <atom:link href="https://mwauracollins.github.io/tags/generative-models/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Autoencoders</title>
+      <link>https://mwauracollins.github.io/posts/2025-01-16-autoencoders/</link>
+      <pubDate>Wed, 15 Jan 2025 21:23:02 +0300</pubDate>
+      <guid>https://mwauracollins.github.io/posts/2025-01-16-autoencoders/</guid>
+      <description>An overview of autoencoders with a simplified explanation.</description>
+    </item>
+  </channel>
+</rss>
