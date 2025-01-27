@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Transformer on mwaura.AI</title>
+    <link>https://mwauracollins.github.io/tags/transformer/</link>
+    <description>Recent content in Transformer on mwaura.AI</description>
+    <generator>Hugo -- 0.142.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Jan 2025 12:15:11 +0300</lastBuildDate>
+    <atom:link href="https://mwauracollins.github.io/tags/transformer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unraveling RoPE: Encoding Relative Positions in Transformers with Elegance</title>
+      <link>https://mwauracollins.github.io/posts/2025-01-24-rope/</link>
+      <pubDate>Fri, 24 Jan 2025 12:15:11 +0300</pubDate>
+      <guid>https://mwauracollins.github.io/posts/2025-01-24-rope/</guid>
+      <description>&lt;h2 id=&#34;why-positional-encoding&#34;&gt;Why Positional Encoding?&lt;/h2&gt;
+&lt;p&gt;Unlike recurrent neural networks (RNNs), transformers process tokens in parallel meaning they do not inherently understand the order of words in a sequence. In language, the meaning of a word can heavily depend on its position, for example, &lt;em&gt;&amp;ldquo;Salt has important minerals.&amp;rdquo;&lt;/em&gt; and &lt;em&gt;&amp;ldquo;The food is so bland I had to salt it.&amp;rdquo;&lt;/em&gt;. Salt is used as a noun and verb depending on it position on the sentence.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
