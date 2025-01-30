@@ -2,14 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mwauracollins.github.io/tags/deep-learning/</loc>
+    <lastmod>2025-01-24T12:15:11+03:00</lastmod>
+  </url><url>
+    <loc>https://mwauracollins.github.io/tags/llms/</loc>
+    <lastmod>2025-01-24T12:15:11+03:00</lastmod>
+  </url><url>
     <loc>https://mwauracollins.github.io/</loc>
+    <lastmod>2025-01-24T12:15:11+03:00</lastmod>
+  </url><url>
+    <loc>https://mwauracollins.github.io/tags/positional-encoding/</loc>
     <lastmod>2025-01-24T12:15:11+03:00</lastmod>
   </url><url>
     <loc>https://mwauracollins.github.io/posts/</loc>
     <lastmod>2025-01-24T12:15:11+03:00</lastmod>
   </url><url>
-    <loc>https://mwauracollins.github.io/tags/deep-learning/</loc>
-    <lastmod>2025-01-21T12:34:55+03:00</lastmod>
+    <loc>https://mwauracollins.github.io/tags/</loc>
+    <lastmod>2025-01-24T12:15:11+03:00</lastmod>
+  </url><url>
+    <loc>https://mwauracollins.github.io/tags/transformer/</loc>
+    <lastmod>2025-01-24T12:15:11+03:00</lastmod>
+  </url><url>
+    <loc>https://mwauracollins.github.io/posts/2025-01-24-rope/</loc>
+    <lastmod>2025-01-24T12:15:11+03:00</lastmod>
   </url><url>
     <loc>https://mwauracollins.github.io/tags/gradient-descent/</loc>
     <lastmod>2025-01-21T12:34:55+03:00</lastmod>
@@ -18,9 +33,6 @@
     <lastmod>2025-01-21T12:34:55+03:00</lastmod>
   </url><url>
     <loc>https://mwauracollins.github.io/posts/2025-01-21-optimizers/</loc>
-    <lastmod>2025-01-21T12:34:55+03:00</lastmod>
-  </url><url>
-    <loc>https://mwauracollins.github.io/tags/</loc>
     <lastmod>2025-01-21T12:34:55+03:00</lastmod>
   </url><url>
     <loc>https://mwauracollins.github.io/tags/autoencoders/</loc>
