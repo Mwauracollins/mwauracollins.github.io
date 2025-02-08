@@ -4,10 +4,19 @@
     <title>mwaura.AI</title>
     <link>https://mwauracollins.github.io/</link>
     <description>Recent content on mwaura.AI</description>
-    <generator>Hugo -- 0.142.0</generator>
+    <generator>Hugo -- 0.143.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jan 2025 12:15:11 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2025 22:20:47 +0300</lastBuildDate>
     <atom:link href="https://mwauracollins.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rolling Your Own GPT</title>
+      <link>https://mwauracollins.github.io/posts/2025-02-04-gpt/</link>
+      <pubDate>Tue, 04 Feb 2025 22:20:47 +0300</pubDate>
+      <guid>https://mwauracollins.github.io/posts/2025-02-04-gpt/</guid>
+      <description>&lt;p&gt;Training a GPT model sounds like a moonshot but it is actually just a series of simple and well-defined steps.
+At its core, it is just a giant text predictor, fed with tons of data and then allowed to guess the next word. The real challenge is not training it to predict the next word, but to make it produce something useful like answers to your assignment due midnight.😅
+You need some special type of training like &lt;strong&gt;Reinforcement Learning with Human Feedback &lt;a href=&#34;#rlhf&#34;&gt;(RLHF)&lt;/a&gt;&lt;/strong&gt;. Though you can get good responses without RLHF, RLHF is required to make it chatbot-like.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Unraveling RoPE: Encoding Relative Positions in Transformers with Elegance</title>
       <link>https://mwauracollins.github.io/posts/2025-01-24-rope/</link>
