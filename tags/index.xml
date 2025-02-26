@@ -4,10 +4,31 @@
     <title>Tags on mwaura.AI</title>
     <link>https://mwauracollins.github.io/tags/</link>
     <description>Recent content in Tags on mwaura.AI</description>
-    <generator>Hugo -- 0.143.1</generator>
+    <generator>Hugo -- 0.144.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Feb 2025 22:20:47 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 23 Feb 2025 22:30:36 +0300</lastBuildDate>
     <atom:link href="https://mwauracollins.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bandits</title>
+      <link>https://mwauracollins.github.io/tags/bandits/</link>
+      <pubDate>Sun, 23 Feb 2025 22:30:36 +0300</pubDate>
+      <guid>https://mwauracollins.github.io/tags/bandits/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mathy</title>
+      <link>https://mwauracollins.github.io/tags/mathy/</link>
+      <pubDate>Sun, 23 Feb 2025 22:30:36 +0300</pubDate>
+      <guid>https://mwauracollins.github.io/tags/mathy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reinforcement Learning</title>
+      <link>https://mwauracollins.github.io/tags/reinforcement-learning/</link>
+      <pubDate>Sun, 23 Feb 2025 22:30:36 +0300</pubDate>
+      <guid>https://mwauracollins.github.io/tags/reinforcement-learning/</guid>
+      <description></description>
+    </item>
     <item>
       <title>GPT</title>
       <link>https://mwauracollins.github.io/tags/gpt/</link>

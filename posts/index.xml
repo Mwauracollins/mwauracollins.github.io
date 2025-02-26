@@ -4,10 +4,17 @@
     <title>Posts on mwaura.AI</title>
     <link>https://mwauracollins.github.io/posts/</link>
     <description>Recent content in Posts on mwaura.AI</description>
-    <generator>Hugo -- 0.143.1</generator>
+    <generator>Hugo -- 0.144.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Feb 2025 22:20:47 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 23 Feb 2025 22:30:36 +0300</lastBuildDate>
     <atom:link href="https://mwauracollins.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reinforcement Learning: From Bandits to GRPO – A Journey Through Decision-Making</title>
+      <link>https://mwauracollins.github.io/posts/2025-02-23-rl_bandits/</link>
+      <pubDate>Sun, 23 Feb 2025 22:30:36 +0300</pubDate>
+      <guid>https://mwauracollins.github.io/posts/2025-02-23-rl_bandits/</guid>
+      <description>&lt;p&gt;Every day, we interact with our world and make decisions based on experience. Whether eating out or whether to use the stairs or the elevator, every day we make a decision. Sometimes we&amp;rsquo;re doing what we know and sometimes we&amp;rsquo;re winging it with something new. These are a form of reinforcement learning. This form of learning is at the heart of most living things; with infants learning to walk by making mistakes and elephants in a zoo learning that electric fence must be kept away from.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Rolling Your Own GPT</title>
       <link>https://mwauracollins.github.io/posts/2025-02-04-gpt/</link>

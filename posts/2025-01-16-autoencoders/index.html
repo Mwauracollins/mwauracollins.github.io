@@ -99,7 +99,7 @@ $$<p>You can notice that the first term can be estimated as it is an expectation
 \mathbf{z} &\sim q_\phi(\mathbf{z}\vert\mathbf{x}^{(i)}) = \mathcal{N}(\mathbf{z}; \boldsymbol{\mu}^{(i)}, \boldsymbol{\sigma}^{2(i)}\boldsymbol{I}) \\
 \mathbf{z} &= \boldsymbol{\mu} + \boldsymbol{\sigma} \odot \boldsymbol{\epsilon} \text{, where } \boldsymbol{\epsilon} \sim \mathcal{N}(0, \boldsymbol{I})
 \end{aligned}
-$$<p>This essentially tranfers the randomness from $\mathbf{z}$ to an external variable $\boldsymbol{\epsilon}$</p><p><img alt="Figure3: The reparameterization trick" loading=lazy src=/images/autoencoder/reparameterization.png></p><h5 id=gradient-wrt--phi-with-reparameterization>Gradient w.r.t. $ \phi$ with reparameterization.<a hidden class=anchor aria-hidden=true href=#gradient-wrt--phi-with-reparameterization>#</a></h5><p>Using the reparameterization trick, we rewrite $\mathbf{z}$ as:</p>$$
+$$<p>This essentially tranfers the randomness from $\mathbf{z}$ to an external variable $\boldsymbol{\epsilon}$</p><p><img alt="Figure3: The reparameterization trick" loading=lazy src=/images/autoencoder/reparameterization.png></p><h5 id=gradient-wrt--with-reparameterization>Gradient w.r.t. $ \phi$ with reparameterization.<a hidden class=anchor aria-hidden=true href=#gradient-wrt--with-reparameterization>#</a></h5><p>Using the reparameterization trick, we rewrite $\mathbf{z}$ as:</p>$$
 \mathbf{z} = \boldsymbol{\mu}_\phi(\mathbf{x}) + \boldsymbol{\sigma}_\phi(\mathbf{x}) \odot \boldsymbol{\epsilon}, \quad \boldsymbol{\epsilon} \sim \mathcal{N}(\mathbf{0}, \mathbf{I}).
 $$$$
 \text{ELBO}(\phi, \theta) = \mathbb{E}_{\boldsymbol{\epsilon} \sim \mathcal{N}(\mathbf{0}, \mathbf{I})} \log \frac{p_\theta(\mathbf{z}, \mathbf{x})} {q_\phi(\mathbf{z} \vert \mathbf{x})}
@@ -115,7 +115,7 @@ For a Gaussian distribution $q_\phi(\mathbf{z} \vert \mathbf{x}) = \mathcal{N}(\
 \log q_\phi(\mathbf{z} \vert \mathbf{x}) = -\frac{1}{2} \left[ \log (2\pi) + \log (\boldsymbol{\sigma}_\phi^2) + \frac{(\mathbf{z} - \boldsymbol{\mu}_\phi)^2}{\boldsymbol{\sigma}_\phi^2} \right].
 $$<p>Its gradient w.r.t. $\phi$ is:</p>$$
 \nabla_\phi \log q_\phi(\mathbf{z} \vert \mathbf{x}) = \nabla_\phi \left( \frac{\mathbf{z} - \boldsymbol{\mu}_\phi}{\boldsymbol{\sigma}_\phi^2} \cdot (\mathbf{z} - \boldsymbol{\mu}_\phi) - \log \boldsymbol{\sigma}_\phi \right).
-$$</li></ol><h5 id=gradient-wrt-theta>Gradient w.r.t. $\theta$<a hidden class=anchor aria-hidden=true href=#gradient-wrt-theta>#</a></h5><p>As derived earlier, the gradient w.r.t. $\theta$ is simpler:</p>$$
+$$</li></ol><h5 id=gradient-wrt>Gradient w.r.t. $\theta$<a hidden class=anchor aria-hidden=true href=#gradient-wrt>#</a></h5><p>As derived earlier, the gradient w.r.t. $\theta$ is simpler:</p>$$
 \nabla_\theta L = \mathbb{E}_{\mathbf{z} \sim q_\phi(\mathbf{z} \vert \mathbf{x})} \nabla_\theta \log p_\theta(\mathbf{z}, \mathbf{x})
 $$<p>Using Monte Carlo sampling, this is approximated as:</p>$$
 \nabla_\theta L \approx \frac{1}{n} \sum_{i=1}^n \nabla_\theta \log p_\theta(\mathbf{z}^{(i)}, \mathbf{x})
